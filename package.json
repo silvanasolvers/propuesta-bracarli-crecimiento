@@ -1,0 +1,14 @@
+{
+  "name": "propuesta-bracarli-crecimiento",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Propuesta interactiva SolversAI para Bracarli",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
