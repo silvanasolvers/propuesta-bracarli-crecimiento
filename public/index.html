@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bracarli | Propuesta de Crecimiento Comercial Digital</title>
-  <meta name="description" content="Propuesta interactiva de SolversAI para Bracarli: gestion mensual de crecimiento comercial digital para convertir deseo, confianza y trafico en ventas medibles.">
+  <meta name="description" content="Propuesta SolversAI para Bracarli: gestion mensual para convertir deseo, confianza y trafico en ventas medibles.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     :root {
       --green: #17484c;
-      --green-2: #0c3033;
-      --green-soft: #e7eeee;
-      --gold: #c39a45;
-      --gold-soft: #f7edd8;
-      --paper: #fbfaf7;
+      --deep: #071f22;
+      --ink: #102f33;
+      --muted: #6a7b7d;
+      --paper: #fbfaf6;
       --white: #ffffff;
-      --ink: #142f32;
-      --muted: #6d7f81;
-      --line: rgba(20, 47, 50, .14);
-      --shadow: 0 22px 80px rgba(12, 48, 51, .14);
+      --gold: #c69a3f;
+      --gold-soft: #f6ead1;
+      --rose: #b66d57;
+      --line: rgba(16, 47, 51, .14);
+      --shadow: 0 26px 90px rgba(7, 31, 34, .18);
       --radius: 8px;
     }
 
@@ -31,24 +31,24 @@
       color: var(--ink);
       background: var(--paper);
       font-family: Jost, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.5;
+      line-height: 1.45;
       letter-spacing: 0;
     }
 
     a { color: inherit; text-decoration: none; }
-    p, h1, h2, h3, span, li { overflow-wrap: break-word; }
+    h1, h2, h3, p, span, li { overflow-wrap: break-word; }
 
     .topbar {
       position: sticky;
       top: 0;
-      z-index: 20;
+      z-index: 30;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 18px;
-      padding: 16px clamp(18px, 4vw, 56px);
-      background: rgba(251, 250, 247, .9);
+      gap: 16px;
+      padding: 14px clamp(18px, 4vw, 54px);
       border-bottom: 1px solid var(--line);
+      background: rgba(251, 250, 246, .92);
       backdrop-filter: blur(18px);
     }
 
@@ -56,9 +56,8 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      min-width: 0;
       color: var(--green);
-      font-weight: 800;
+      font-weight: 900;
       text-transform: uppercase;
     }
 
@@ -67,10 +66,10 @@
       place-items: center;
       width: 38px;
       height: 38px;
-      border: 1px solid rgba(23, 72, 76, .18);
+      border: 1px solid rgba(198, 154, 63, .42);
       border-radius: 50%;
-      background: var(--white);
       color: var(--gold);
+      background: var(--white);
       font-family: "Cormorant Garamond", serif;
       font-size: 25px;
       font-weight: 700;
@@ -80,8 +79,7 @@
       display: block;
       color: var(--muted);
       font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0;
+      font-weight: 800;
       text-transform: none;
     }
 
@@ -97,19 +95,19 @@
       justify-content: center;
       min-height: 42px;
       padding: 0 16px;
-      border: 1px solid rgba(23, 72, 76, .18);
+      border: 1px solid var(--line);
       border-radius: var(--radius);
-      background: var(--white);
       color: var(--green);
+      background: var(--white);
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 900;
       text-transform: uppercase;
       transition: transform .18s ease, border-color .18s ease, background .18s ease;
     }
 
     .button:hover {
       transform: translateY(-1px);
-      border-color: rgba(195, 154, 69, .55);
+      border-color: rgba(198, 154, 63, .62);
       background: var(--gold-soft);
     }
 
@@ -121,19 +119,20 @@
 
     .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(360px, .75fr);
-      min-height: calc(100svh - 75px);
+      grid-template-columns: minmax(0, .95fr) minmax(420px, .78fr);
+      min-height: calc(100svh - 69px);
       background:
-        radial-gradient(circle at 18% 25%, rgba(195, 154, 69, .13), transparent 32%),
-        linear-gradient(135deg, var(--paper) 0%, #ffffff 46%, var(--green-soft) 100%);
-      border-bottom: 1px solid var(--line);
+        linear-gradient(90deg, rgba(7,31,34,.045) 0 1px, transparent 1px 100%),
+        linear-gradient(180deg, rgba(7,31,34,.035) 0 1px, transparent 1px 100%),
+        var(--paper);
+      background-size: 58px 58px;
     }
 
     .hero-copy {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: clamp(52px, 8vw, 104px) clamp(22px, 6vw, 86px);
+      padding: clamp(48px, 8vw, 100px) clamp(22px, 6vw, 82px);
     }
 
     .kicker {
@@ -143,28 +142,27 @@
       min-height: 30px;
       padding: 0 12px;
       margin-bottom: 22px;
-      border: 1px solid rgba(195, 154, 69, .38);
+      border: 1px solid rgba(198, 154, 63, .5);
       border-radius: 999px;
-      background: rgba(247, 237, 216, .74);
+      background: var(--gold-soft);
       color: var(--green);
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 900;
       text-transform: uppercase;
     }
 
-    h1, h2, h3 { margin: 0; color: var(--green); line-height: .98; }
+    h1, h2, h3 { margin: 0; color: var(--green); line-height: .96; }
 
     h1 {
-      max-width: 860px;
+      max-width: 850px;
       font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(50px, 8vw, 104px);
+      font-size: clamp(55px, 8.8vw, 112px);
       font-weight: 600;
-      letter-spacing: 0;
     }
 
     .hero-copy p {
-      max-width: 700px;
-      margin: 24px 0 0;
+      max-width: 620px;
+      margin: 22px 0 0;
       color: var(--muted);
       font-size: clamp(18px, 2vw, 22px);
     }
@@ -173,14 +171,48 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 30px;
+      margin-top: 28px;
+    }
+
+    .hero-punch {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      max-width: 680px;
+      margin-top: 34px;
+    }
+
+    .punch {
+      min-height: 112px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.82);
+      box-shadow: 0 10px 34px rgba(7,31,34,.06);
+    }
+
+    .punch b {
+      display: block;
+      color: var(--rose);
+      font-size: 25px;
+      line-height: 1;
+    }
+
+    .punch span {
+      display: block;
+      margin-top: 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.16;
+      text-transform: uppercase;
     }
 
     .hero-art {
       position: relative;
       min-height: 560px;
       overflow: hidden;
-      background: var(--green-2);
+      background: var(--deep);
     }
 
     .hero-art img {
@@ -188,15 +220,15 @@
       height: 100%;
       min-height: 560px;
       object-fit: cover;
-      opacity: .88;
-      filter: saturate(1.04) contrast(1.02);
+      opacity: .9;
+      filter: saturate(1.07) contrast(1.04);
     }
 
     .hero-art::after {
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(180deg, rgba(12, 48, 51, .02), rgba(12, 48, 51, .72));
+      background: linear-gradient(180deg, rgba(7,31,34,.04), rgba(7,31,34,.76));
     }
 
     .art-caption {
@@ -210,118 +242,125 @@
 
     .art-caption strong {
       display: block;
+      max-width: 520px;
       font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(36px, 4vw, 58px);
+      font-size: clamp(40px, 4vw, 66px);
       font-weight: 600;
-      line-height: .95;
+      line-height: .94;
     }
 
     .art-caption span {
       display: block;
-      max-width: 440px;
+      max-width: 420px;
       margin-top: 12px;
-      color: rgba(255,255,255,.8);
+      color: rgba(255,255,255,.78);
       font-size: 15px;
     }
 
     .section {
-      padding: clamp(58px, 8vw, 108px) clamp(20px, 5vw, 72px);
-      border-bottom: 1px solid var(--line);
+      padding: clamp(54px, 7vw, 96px) clamp(20px, 5vw, 72px);
+      border-top: 1px solid var(--line);
     }
 
     .section.dark {
       color: var(--white);
-      background: var(--green);
+      background:
+        linear-gradient(135deg, var(--green), var(--deep));
     }
 
     .section.dark h2,
     .section.dark h3 { color: var(--white); }
     .section.dark p,
-    .section.dark li { color: rgba(255,255,255,.74); }
+    .section.dark li { color: rgba(255,255,255,.76); }
 
     .section-head {
       display: grid;
-      grid-template-columns: minmax(0, .82fr) minmax(320px, .48fr);
-      gap: clamp(28px, 5vw, 72px);
+      grid-template-columns: minmax(0, .78fr) minmax(290px, .42fr);
+      gap: clamp(26px, 5vw, 64px);
       align-items: end;
-      max-width: 1220px;
-      margin: 0 auto 38px;
+      max-width: 1180px;
+      margin: 0 auto 30px;
     }
 
     h2 {
       font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(38px, 5vw, 72px);
+      font-size: clamp(42px, 5.6vw, 78px);
       font-weight: 600;
     }
 
     .section-head p {
       margin: 0;
       color: var(--muted);
-      font-size: 17px;
+      font-size: 18px;
     }
 
-    .grid {
+    .pain-grid,
+    .move-grid,
+    .deliverables,
+    .timeline {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      max-width: 1220px;
+      gap: 12px;
+      max-width: 1180px;
       margin: 0 auto;
     }
 
-    .panel {
-      min-height: 100%;
-      padding: 26px;
-      border: 1px solid var(--line);
+    .pain-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .move-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .deliverables { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .timeline { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .pain,
+    .move,
+    .deliverable,
+    .phase {
       border-radius: var(--radius);
-      background: var(--white);
-      box-shadow: 0 10px 38px rgba(12, 48, 51, .06);
+      overflow: hidden;
     }
 
-    .dark .panel {
-      border-color: rgba(255,255,255,.16);
-      background: rgba(255,255,255,.06);
-      box-shadow: none;
+    .pain {
+      min-height: 210px;
+      padding: 22px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.07);
     }
 
-    .panel .num {
-      display: inline-grid;
-      place-items: center;
-      width: 34px;
-      height: 34px;
-      margin-bottom: 20px;
-      border-radius: 50%;
-      color: var(--green);
-      background: var(--gold-soft);
-      font-weight: 800;
-    }
-
-    .panel h3 {
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1.1;
+    .pain b,
+    .move b,
+    .deliverable b,
+    .phase b {
+      display: block;
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 900;
       text-transform: uppercase;
     }
 
-    .panel p {
-      margin: 14px 0 0;
-      color: var(--muted);
+    .pain h3,
+    .move h3,
+    .deliverable h3,
+    .phase h3 {
+      margin-top: 18px;
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .pain p,
+    .move p,
+    .deliverable p,
+    .phase p {
+      margin: 12px 0 0;
       font-size: 16px;
     }
 
-    .split {
-      display: grid;
-      grid-template-columns: minmax(0, .72fr) minmax(360px, .48fr);
-      gap: clamp(26px, 5vw, 70px);
-      align-items: center;
-      max-width: 1220px;
-      margin: 0 auto;
-    }
-
     .statement {
+      max-width: 1180px;
+      margin: 0 auto;
       color: var(--green);
       font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(34px, 5vw, 70px);
-      line-height: .98;
+      font-size: clamp(45px, 7vw, 96px);
+      line-height: .95;
     }
 
     .statement em {
@@ -329,125 +368,39 @@
       font-style: normal;
     }
 
-    .proof {
+    .move {
       display: grid;
-      gap: 10px;
-    }
-
-    .proof-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--line);
-      color: var(--green);
-      font-weight: 800;
-      text-transform: uppercase;
-    }
-
-    .proof-row span {
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 600;
-      text-transform: none;
-    }
-
-    .image-band {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      max-width: 1220px;
-      margin: 0 auto;
-    }
-
-    .image-band img {
-      width: 100%;
-      aspect-ratio: 16 / 10;
-      object-fit: cover;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-
-    .service {
-      max-width: 1220px;
-      margin: 0 auto;
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: var(--radius);
-      overflow: hidden;
-      background: rgba(255,255,255,.05);
-    }
-
-    .service-row {
-      display: grid;
-      grid-template-columns: 260px minmax(0, 1fr);
-      gap: 22px;
-      padding: 26px;
-      border-bottom: 1px solid rgba(255,255,255,.12);
-    }
-
-    .service-row:last-child { border-bottom: 0; }
-
-    .service-row h3 {
-      font-size: 18px;
-      line-height: 1.2;
-      text-transform: uppercase;
-    }
-
-    .service-row p {
-      margin: 0;
-      font-size: 17px;
-    }
-
-    .timeline {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      max-width: 1220px;
-      margin: 0 auto;
-    }
-
-    .phase {
-      position: relative;
-      min-height: 300px;
-      padding: 26px;
+      grid-template-columns: 140px minmax(0, 1fr);
+      min-height: 220px;
       border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: linear-gradient(180deg, #ffffff, #f8f5ee);
-      overflow: hidden;
+      background: var(--white);
+      box-shadow: 0 16px 58px rgba(7,31,34,.07);
     }
 
-    .phase::before {
-      content: "";
-      position: absolute;
-      inset: 0 0 auto;
-      height: 5px;
-      background: var(--gold);
+    .move-visual {
+      min-height: 100%;
+      background: var(--deep);
     }
 
-    .phase small {
-      color: var(--gold);
-      font-weight: 900;
-      text-transform: uppercase;
+    .move-visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .86;
     }
 
-    .phase h3 {
-      margin-top: 16px;
-      font-size: 25px;
-      line-height: 1.08;
-    }
+    .move-copy { padding: 24px; }
 
-    .phase ul {
-      display: grid;
-      gap: 10px;
-      padding: 0;
-      margin: 18px 0 0;
-      list-style: none;
-      color: var(--muted);
+    .phase,
+    .deliverable {
+      min-height: 220px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, #fff, #f8f3e8);
     }
 
     .quote {
-      max-width: 1000px;
+      max-width: 1050px;
       margin: 0 auto;
       text-align: center;
     }
@@ -456,65 +409,32 @@
       margin: 0;
       color: var(--white);
       font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(36px, 5vw, 78px);
-      line-height: .98;
+      font-size: clamp(44px, 7vw, 94px);
+      line-height: .94;
     }
 
     .quote span {
       display: block;
-      max-width: 680px;
-      margin: 24px auto 0;
-      color: rgba(255,255,255,.72);
+      max-width: 660px;
+      margin: 22px auto 0;
+      color: rgba(255,255,255,.76);
       font-size: 18px;
-    }
-
-    .deliverables {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-      max-width: 1220px;
-      margin: 0 auto;
-    }
-
-    .deliverable {
-      display: grid;
-      grid-template-columns: 54px minmax(0, 1fr);
-      gap: 16px;
-      align-items: start;
-      padding: 22px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--white);
-    }
-
-    .icon {
-      display: grid;
-      place-items: center;
-      width: 54px;
-      height: 54px;
-      border-radius: 50%;
-      background: var(--green-soft);
-      color: var(--green);
-      font-weight: 900;
-    }
-
-    .deliverable h3 {
-      font-size: 18px;
-      text-transform: uppercase;
-    }
-
-    .deliverable p {
-      margin: 8px 0 0;
-      color: var(--muted);
     }
 
     .closing {
       display: grid;
-      grid-template-columns: minmax(0, .7fr) minmax(360px, .48fr);
-      gap: clamp(28px, 5vw, 72px);
+      grid-template-columns: minmax(0, .74fr) minmax(360px, .48fr);
+      gap: clamp(28px, 5vw, 70px);
       align-items: center;
-      max-width: 1220px;
+      max-width: 1180px;
       margin: 0 auto;
+    }
+
+    .closing p {
+      max-width: 650px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 19px;
     }
 
     .closing img {
@@ -532,47 +452,42 @@
       justify-content: space-between;
       gap: 16px;
       padding: 24px clamp(20px, 5vw, 72px);
-      color: rgba(255,255,255,.7);
-      background: var(--green-2);
+      color: rgba(255,255,255,.72);
+      background: var(--deep);
       font-size: 14px;
     }
 
     @media (max-width: 980px) {
       .hero,
       .section-head,
-      .split,
       .closing {
         grid-template-columns: 1fr;
       }
 
       .hero { min-height: auto; }
-      .hero-art, .hero-art img { min-height: 430px; }
-      .grid,
-      .timeline,
-      .deliverables,
-      .image-band {
-        grid-template-columns: 1fr;
-      }
+      .hero-art,
+      .hero-art img { min-height: 420px; }
 
-      .service-row {
+      .pain-grid,
+      .move-grid,
+      .deliverables,
+      .timeline {
         grid-template-columns: 1fr;
       }
     }
 
     @media (max-width: 640px) {
-      .topbar { align-items: flex-start; }
       .nav { display: none; }
+      .hero-copy { padding-top: 42px; }
+      .hero-punch { grid-template-columns: 1fr; }
       .hero-actions .button { width: 100%; }
       .section { padding-inline: 18px; }
-      .panel,
+      .move { grid-template-columns: 1fr; }
+      .move-visual { min-height: 140px; }
+      .pain,
+      .move-copy,
       .phase,
-      .deliverable,
-      .service-row { padding: 20px; }
-      .proof-row {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 6px;
-      }
+      .deliverable { padding: 20px; }
     }
   </style>
 </head>
@@ -583,182 +498,177 @@
       <span>BRACARLI <small>Propuesta SolversAI</small></span>
     </a>
     <nav class="nav" aria-label="Secciones">
-      <a class="button" href="#oportunidad">Oportunidad</a>
+      <a class="button" href="#dolor">Dolor</a>
       <a class="button" href="#sistema">Sistema</a>
-      <a class="button primary" href="#plan">Plan 90 días</a>
+      <a class="button primary" href="#plan">90 días</a>
     </nav>
   </header>
 
   <main id="inicio">
     <section class="hero">
       <div class="hero-copy">
-        <span class="kicker">Gestión mensual de crecimiento comercial digital</span>
+        <span class="kicker">Sistema Mensual de Crecimiento Comercial Digital</span>
         <h1>Bracarli: convertir deseo en ventas medibles.</h1>
-        <p>Una propuesta para que la presencia digital de Bracarli venda con la misma precisión, confianza y elegancia con la que comunica sus piezas en oro 18K.</p>
+        <p>La joya ya enamora. El riesgo está después: Instagram sin ruta, WhatsApp sin cierre y pauta sin dirección comercial.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#sistema">Ver sistema mensual</a>
-          <a class="button" href="#diagnostico">Leer diagnóstico</a>
+          <a class="button primary" href="#sistema">Ver propuesta</a>
+          <a class="button" href="#dolor">Ver dolor</a>
+        </div>
+        <div class="hero-punch" aria-label="Dolores principales">
+          <div class="punch"><b>01</b><span>Tráfico que mira, pero no compra.</span></div>
+          <div class="punch"><b>02</b><span>Chats calientes que se enfrían.</span></div>
+          <div class="punch"><b>03</b><span>Equipo ejecutando sin mapa.</span></div>
         </div>
       </div>
       <div class="hero-art" aria-label="Joya Bracarli">
         <img src="https://bracarli.com/cdn/shop/files/Bracarli_Banner_Agosto_Bodas_Lifestyle_de1e8587-73b5-47be-ac48-157028fd60bc.png?v=1785258025&width=1400" alt="Joyería Bracarli sobre piel">
         <div class="art-caption">
-          <strong>Cerca del corazón. Cerca de la compra.</strong>
-          <span>El deseo ya existe. La oportunidad está en guiarlo mejor hasta conversación, decisión y recompra.</span>
+          <strong>Si el deseo no se guía, se pierde.</strong>
+          <span>SolversAI ordena el camino entre ver la pieza, preguntar, confiar y comprar.</span>
         </div>
       </div>
     </section>
 
-    <section class="section" id="diagnostico">
+    <section class="section dark" id="dolor">
       <div class="section-head">
-        <h2>Una marca con autoridad. Una operación lista para escalar.</h2>
-        <p>Bracarli ya transmite legado, distinción y confianza: oro con certificado, garantía, pago seguro, envío nacional y una historia de más de tres décadas. El siguiente salto no es verse más digital; es vender mejor desde lo digital.</p>
+        <h2>El problema no es la marca. Es la fuga.</h2>
+        <p>Bracarli tiene producto, confianza, oro 18K, garantía y certificado. El dolor está en convertir todo eso con método.</p>
       </div>
-      <div class="grid">
-        <article class="panel">
-          <span class="num">01</span>
-          <h3>Deseo visible</h3>
-          <p>Las piezas tienen aspiración, detalle y valor emocional. Cada visual debe activar una conversación con intención comercial clara.</p>
+      <div class="pain-grid">
+        <article class="pain">
+          <b>Dolor 01</b>
+          <h3>La gente desea, pero duda.</h3>
+          <p>Precio, autenticidad, regalo, talla, entrega. Si nadie guía la decisión, el impulso muere.</p>
         </article>
-        <article class="panel">
-          <span class="num">02</span>
-          <h3>Confianza instalada</h3>
-          <p>La garantía, el certificado y la trayectoria ya reducen fricción. El sistema debe llevar esos argumentos al momento exacto de compra.</p>
+        <article class="pain">
+          <b>Dolor 02</b>
+          <h3>WhatsApp se llena, no siempre cierra.</h3>
+          <p>Un chat sin libreto vende por suerte. Un chat con ruta vende por sistema.</p>
         </article>
-        <article class="panel">
-          <span class="num">03</span>
-          <h3>Venta por acompañamiento</h3>
-          <p>En joyería premium, la venta no solo depende del tráfico. Depende de asesoría, seguimiento, objeciones resueltas y recompra.</p>
+        <article class="pain">
+          <b>Dolor 03</b>
+          <h3>La pauta puede traer ruido.</h3>
+          <p>Sin estrategia, el presupuesto compra clics. Con estrategia, compra intención.</p>
+        </article>
+        <article class="pain">
+          <b>Dolor 04</b>
+          <h3>La recompra queda dormida.</h3>
+          <p>Quien compró una joya puede volver por regalo, fecha, aniversario o colección.</p>
         </article>
       </div>
     </section>
 
     <section class="section" id="oportunidad">
-      <div class="split">
-        <div class="statement">
-          Bracarli no necesita hacer más ruido. Necesita que cada punto de contacto <em>convierta mejor</em>.
-        </div>
-        <div class="proof" aria-label="Principios comerciales">
-          <div class="proof-row">Atracción <span>campañas, colecciones y públicos con intención</span></div>
-          <div class="proof-row">Conversación <span>Instagram, web y WhatsApp conectados a venta</span></div>
-          <div class="proof-row">Decisión <span>argumentos de confianza en el momento correcto</span></div>
-          <div class="proof-row">Recompra <span>clientes, fechas, regalos y seguimiento mensual</span></div>
-        </div>
+      <div class="statement">
+        No se trata de hacer más contenido. Se trata de que cada contacto tenga <em>dirección comercial</em>.
       </div>
     </section>
 
-    <section class="section dark" id="sistema">
+    <section class="section" id="sistema">
       <div class="section-head">
-        <h2>Sistema Mensual de Crecimiento Comercial Digital.</h2>
-        <p>Un modelo de gestión continua para alinear marca, campañas, contenido, WhatsApp y medición bajo una misma intención: vender más sin perder percepción premium.</p>
+        <h2>Lo que entra a gestionar SolversAI.</h2>
+        <p>Menos teoría. Más sistema, más criterio y más ejecución guiada.</p>
       </div>
-      <div class="service">
-        <div class="service-row">
-          <h3>Dirección estratégica</h3>
-          <p>Planeación mensual por colecciones, temporadas, productos de mayor intención, fechas comerciales y oportunidades detectadas en el comportamiento del cliente.</p>
-        </div>
-        <div class="service-row">
-          <h3>Gestión de pauta</h3>
-          <p>Campañas orientadas a intención comercial: tráfico calificado, conversaciones, remarketing y aprendizaje sobre qué piezas, mensajes y públicos responden mejor.</p>
-        </div>
-        <div class="service-row">
-          <h3>Conversión digital</h3>
-          <p>Optimización del recorrido Instagram -> web -> WhatsApp para que las preguntas no se pierdan y el cliente reciba una guía clara hacia compra.</p>
-        </div>
-        <div class="service-row">
-          <h3>WhatsApp comercial</h3>
-          <p>Guiones, respuestas, seguimiento, objeciones, recomendaciones por ocasión y estructura de asesoría para que la experiencia se sienta premium y cercana.</p>
-        </div>
-        <div class="service-row">
-          <h3>Medición ejecutiva</h3>
-          <p>Reporte mensual con aprendizajes, próximos movimientos, oportunidades de recompra y decisiones concretas para que la inversión no dependa de intuición.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="image-band">
-        <img src="https://bracarli.com/cdn/shop/files/Image_43_1d47016b-0460-4e8c-bbee-9d75d81841f4.png?v=1785257582&width=1200" alt="Campaña visual Bracarli">
-        <img src="https://bracarli.com/cdn/shop/files/Image_41_192d0b04-5624-4adf-b2c9-3246a8c7c206.png?v=1785257760&width=1200" alt="Pieza visual Bracarli">
-      </div>
-    </section>
-
-    <section class="section" id="plan">
-      <div class="section-head">
-        <h2>Primeros 90 días: ordenar, activar y escalar.</h2>
-        <p>La gestión mensual debe empezar con foco. Primero entendemos el negocio comercial, después ejecutamos con precisión y finalmente optimizamos con datos.</p>
-      </div>
-      <div class="timeline">
-        <article class="phase">
-          <small>Días 1-30</small>
-          <h3>Diagnóstico comercial y base de conversión</h3>
-          <ul>
-            <li>Auditoría de canales, campañas, CTAs y WhatsApp.</li>
-            <li>Mapa de productos, colecciones y ocasiones de compra.</li>
-            <li>Mensajes base: confianza, regalo, legado y decisión.</li>
-          </ul>
+      <div class="move-grid">
+        <article class="move">
+          <div class="move-visual">
+            <img src="https://bracarli.com/cdn/shop/files/Image_43_1d47016b-0460-4e8c-bbee-9d75d81841f4.png?v=1785257582&width=900" alt="Campaña visual Bracarli">
+          </div>
+          <div class="move-copy">
+            <b>01 / Dirección estratégica</b>
+            <h3>Qué vender, a quién y con qué ángulo.</h3>
+            <p>Colecciones, fechas, productos foco, audiencias y mensajes que atacan intención real.</p>
+          </div>
         </article>
-        <article class="phase">
-          <small>Días 31-60</small>
-          <h3>Campañas y sistema de seguimiento</h3>
-          <ul>
-            <li>Activación de campañas por intención y remarketing.</li>
-            <li>Guiones de asesoría y objeciones para WhatsApp.</li>
-            <li>Priorización de piezas con mejor respuesta comercial.</li>
-          </ul>
+        <article class="move">
+          <div class="move-visual">
+            <img src="https://bracarli.com/cdn/shop/files/Image_41_192d0b04-5624-4adf-b2c9-3246a8c7c206.png?v=1785257760&width=900" alt="Pieza visual Bracarli">
+          </div>
+          <div class="move-copy">
+            <b>02 / Pauta con criterio</b>
+            <h3>Estrategia + skills para el equipo.</h3>
+            <p>SolversAI define estructura, campañas, audiencias, copies, pruebas y lectura. El equipo ejecuta con el mapa que entregamos.</p>
+          </div>
         </article>
-        <article class="phase">
-          <small>Días 61-90</small>
-          <h3>Optimización y crecimiento sostenido</h3>
-          <ul>
-            <li>Lectura de datos y ajustes de inversión.</li>
-            <li>Estrategias de recompra por fechas y regalos.</li>
-            <li>Reporte ejecutivo con aprendizajes y próximos pasos.</li>
-          </ul>
+        <article class="move">
+          <div class="move-visual">
+            <img src="https://bracarli.com/cdn/shop/files/preview_images/23e77a82751c453db8f27e0c9a22c08c.thumbnail.0000000000_800x.jpg?v=1717523159" alt="Video colección Bracarli">
+          </div>
+          <div class="move-copy">
+            <b>03 / WhatsApp comercial</b>
+            <h3>Del “hola, precio” al cierre.</h3>
+            <p>Libretos, objeciones, seguimiento y rutas de asesoría para no perder intención caliente.</p>
+          </div>
+        </article>
+        <article class="move">
+          <div class="move-visual">
+            <img src="https://bracarli.com/cdn/shop/files/Bracarli_Banner_Agosto_Bodas_Lifestyle_de1e8587-73b5-47be-ac48-157028fd60bc.png?v=1785258025&width=900" alt="Joya Bracarli">
+          </div>
+          <div class="move-copy">
+            <b>04 / Medición</b>
+            <h3>Decidir con señales, no con sensación.</h3>
+            <p>Qué pieza mueve interés, qué mensaje abre conversación y qué ajuste toca hacer cada mes.</p>
+          </div>
         </article>
       </div>
     </section>
 
     <section class="section dark">
       <div class="quote">
-        <p>La meta no es hacer más ruido. Es construir una operación digital que convierta la confianza que Bracarli ya inspira en crecimiento comercial sostenido.</p>
-        <span>SolversAI entra como proveedor estratégico mensual: estrategia, tecnología, pauta, optimización y mirada comercial en un solo frente.</span>
+        <p>Una joya no se vende empujando. Se vende reduciendo duda.</p>
+        <span>La gestión mensual de SolversAI existe para que el equipo tenga dirección, el cliente tenga confianza y la inversión tenga lectura.</span>
+      </div>
+    </section>
+
+    <section class="section" id="plan">
+      <div class="section-head">
+        <h2>90 días para ordenar la venta digital.</h2>
+        <p>Un inicio corto, claro y accionable.</p>
+      </div>
+      <div class="timeline">
+        <article class="phase">
+          <b>Mes 1</b>
+          <h3>Diagnóstico + mapa</h3>
+          <p>Canales, pauta, WhatsApp, productos foco, dolores de compra y mensajes de confianza.</p>
+        </article>
+        <article class="phase">
+          <b>Mes 2</b>
+          <h3>Activación guiada</h3>
+          <p>Estrategia de pauta, skills para el equipo, guiones y pruebas comerciales.</p>
+        </article>
+        <article class="phase">
+          <b>Mes 3</b>
+          <h3>Optimización</h3>
+          <p>Lectura de resultados, ajustes, recompra y próximos movimientos por colección.</p>
+        </article>
       </div>
     </section>
 
     <section class="section">
       <div class="section-head">
-        <h2>Qué queda gestionado cada mes.</h2>
-        <p>Una operación clara, medible y accionable para que Bracarli no dependa de esfuerzos sueltos, sino de un sistema que aprende y mejora.</p>
+        <h2>Entregables mensuales.</h2>
+        <p>Lo necesario. Lo útil. Lo que mueve ventas.</p>
       </div>
       <div class="deliverables">
         <article class="deliverable">
-          <span class="icon">01</span>
-          <div>
-            <h3>Calendario comercial</h3>
-            <p>Prioridades mensuales por colección, fecha, producto, ocasión de regalo y oportunidad de venta.</p>
-          </div>
+          <b>01</b>
+          <h3>Plan comercial</h3>
+          <p>Prioridades del mes: producto, fecha, audiencia y oferta.</p>
         </article>
         <article class="deliverable">
-          <span class="icon">02</span>
-          <div>
-            <h3>Campañas activas</h3>
-            <p>Gestión y optimización de campañas según objetivo: descubrimiento, intención, conversación o recompra.</p>
-          </div>
+          <b>02</b>
+          <h3>Skills de pauta</h3>
+          <p>Estructura, copies, públicos, pruebas y criterios para ejecutar.</p>
         </article>
         <article class="deliverable">
-          <span class="icon">03</span>
-          <div>
-            <h3>Ruta de conversión</h3>
-            <p>Mejoras en llamados a la acción, enlaces, mensajes, respuestas y pasos hacia compra.</p>
-          </div>
+          <b>03</b>
+          <h3>Ruta WhatsApp</h3>
+          <p>Libretos, objeciones, seguimiento y cierre.</p>
         </article>
         <article class="deliverable">
-          <span class="icon">04</span>
-          <div>
-            <h3>Reporte ejecutivo</h3>
-            <p>Lectura mensual simple: qué funcionó, qué no, qué ajustar y dónde está la siguiente oportunidad comercial.</p>
-          </div>
+          <b>04</b>
+          <h3>Reporte ejecutivo</h3>
+          <p>Qué funcionó, qué corregir y dónde está la próxima venta.</p>
         </article>
       </div>
     </section>
@@ -767,14 +677,14 @@
       <div class="closing">
         <div>
           <span class="kicker">Cierre estratégico</span>
-          <h2>Una experiencia digital a la altura del valor de sus piezas.</h2>
-          <p style="margin-top: 22px; color: var(--muted); font-size: 18px;">Bracarli ya tiene producto, historia y confianza. SolversAI propone gestionar el crecimiento mensual para que esa percepción se traduzca en más conversaciones calificadas, más decisiones acompañadas y más ventas medibles.</p>
+          <h2>Bracarli ya inspira confianza. Ahora toca convertirla mejor.</h2>
+          <p>SolversAI no entra a hacer ruido. Entra a darle dirección comercial al deseo: pauta con criterio, equipo guiado, WhatsApp con cierre y decisiones mensuales con datos.</p>
           <div class="hero-actions">
             <a class="button primary" href="https://wa.me/573113064578?text=Hola%20Valentina,%20quiero%20revisar%20la%20propuesta%20Bracarli" target="_blank" rel="noreferrer">Hablar con Valentina</a>
             <a class="button" href="#inicio">Volver arriba</a>
           </div>
         </div>
-        <img src="https://bracarli.com/cdn/shop/files/preview_images/23e77a82751c453db8f27e0c9a22c08c.thumbnail.0000000000_800x.jpg?v=1717523159" alt="Video colección Bracarli">
+        <img src="https://bracarli.com/cdn/shop/files/preview_images/23e77a82751c453db8f27e0c9a22c08c.thumbnail.0000000000_800x.jpg?v=1717523159" alt="Colección Bracarli">
       </div>
     </section>
   </main>
@@ -790,11 +700,11 @@
         if (entry.isIntersecting) entry.target.animate([
           { opacity: 0, transform: 'translateY(18px)' },
           { opacity: 1, transform: 'translateY(0)' }
-        ], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'both' });
+        ], { duration: 580, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'both' });
       });
     }, { threshold: .12 });
 
-    document.querySelectorAll('.panel, .phase, .deliverable, .service-row, .section-head, .statement').forEach((el) => observer.observe(el));
+    document.querySelectorAll('.pain, .move, .phase, .deliverable, .section-head, .statement').forEach((el) => observer.observe(el));
   </script>
 </body>
 </html>

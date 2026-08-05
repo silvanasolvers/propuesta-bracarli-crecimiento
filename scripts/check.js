@@ -16,10 +16,12 @@ const required = [
   '90 días',
   'SolversAI',
   'Dirección estratégica',
-  'Atracción',
-  'Conversión',
+  'El problema no es la marca. Es la fuga.',
+  'skills para el equipo',
+  'Skills de pauta',
+  'Ruta WhatsApp',
   'Medición',
-  'La meta no es hacer más ruido',
+  'Una joya no se vende empujando',
   'BRACARLI',
 ];
 
