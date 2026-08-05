@@ -19,3 +19,10 @@
 - Se aclaro que en pauta SolversAI entrega estrategia, estructura, audiencias, copies, pruebas y skills para que el equipo ejecute con mapa.
 - Se ajusto diseno a una propuesta mas llamativa: grilla sutil, tarjetas de dolor, contraste verde profundo/dorado, frases grandes y bloques mas cortos.
 - Verificacion: `npm run check` OK, deploy Dokploy `done`, URL publica sirve la version nueva.
+
+## Revision 3
+
+- Se reemplazo el banner inicial que cortaba la imagen por una experiencia visual propia: sello Bracarli, ruta deseo/confianza/cierre y piezas de joyeria en composicion.
+- Se acorto el titular del hero para que la primera pantalla respire mejor: `Bracarli vende deseo. Cerramos la fuga.`
+- Se ajusto responsive desktop/mobile para que la apertura no dependa de una foto gigante recortada.
+- Verificacion local: `npm run check` OK, servidor local `/health` OK y capturas desktop/mobile revisadas.
