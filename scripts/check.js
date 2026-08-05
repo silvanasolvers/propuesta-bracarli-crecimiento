@@ -4,7 +4,7 @@ const html = await readFile(new URL('../public/index.html', import.meta.url), 'u
 
 const required = [
   'Bracarli',
-  'convertir deseo en ventas medibles',
+  'Hoy se está fugando intención',
   'Sistema Mensual de Crecimiento Comercial Digital',
   'oro 18K',
   'garantía',
@@ -16,8 +16,8 @@ const required = [
   '90 días',
   'SolversAI',
   'Dirección estratégica',
-  'El problema no es la marca. Es la fuga.',
-  'skills para el equipo',
+  'El problema no es verse premium. Es cerrar premium.',
+  'Skills para el equipo',
   'Skills de pauta',
   'Ruta WhatsApp',
   'Medición',

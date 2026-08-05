@@ -26,3 +26,10 @@
 - Se acorto el titular del hero para que la primera pantalla respire mejor: `Bracarli vende deseo. Cerramos la fuga.`
 - Se ajusto responsive desktop/mobile para que la apertura no dependa de una foto gigante recortada.
 - Verificacion local: `npm run check` OK, servidor local `/health` OK y capturas desktop/mobile revisadas.
+
+## Revision 4
+
+- [x] Reducir la propuesta a formato ejecutivo para evitar scroll infinito.
+- [x] Mantener el dolor comercial: fuga de intencion, WhatsApp sin ruta, pauta sin estrategia y recompra dormida.
+- [x] Reforzar que SolversAI define estrategia, pauta y skills para que el equipo ejecute con mapa.
+- [x] Ajustar responsive con grillas compactas y layout mobile de una columna.
