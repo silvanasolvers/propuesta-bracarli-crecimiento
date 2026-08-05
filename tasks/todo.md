@@ -33,3 +33,4 @@
 - [x] Mantener el dolor comercial: fuga de intencion, WhatsApp sin ruta, pauta sin estrategia y recompra dormida.
 - [x] Reforzar que SolversAI define estrategia, pauta y skills para que el equipo ejecute con mapa.
 - [x] Ajustar responsive con grillas compactas y layout mobile de una columna.
+- Verificacion: `npm run check` OK, servidor local HTTP 200, capturas Chromium desktop/mobile revisadas y produccion actualizada por autodeploy.
