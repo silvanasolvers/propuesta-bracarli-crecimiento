@@ -795,18 +795,5 @@
     <span>SolversAI · Gestión comercial digital mensual</span>
   </footer>
 
-  <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.animate([
-          { opacity: 0, transform: 'translateY(14px)' },
-          { opacity: 1, transform: 'translateY(0)' }
-        ], { duration: 460, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'both' });
-      });
-    }, { threshold: .15 });
-
-    document.querySelectorAll('.impact, .pain, .split-panel, .mini-statement, .deliver, .phase, .close-card').forEach((el) => observer.observe(el));
-  </script>
 </body>
 </html>
