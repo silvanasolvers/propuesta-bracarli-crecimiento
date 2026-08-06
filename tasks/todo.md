@@ -76,4 +76,12 @@
 - [x] Simplificar el plan a tres etapas y separar responsabilidades de SolversAI y Bracarli.
 - [x] Mantener tarifa habitual de `$6.500.000 COP/mes` y tarifa preferencial de `$5.000.000 COP/mes`.
 - [x] Verificar contenido, servidor y responsive local.
-- [ ] Publicar y validar el mismo enlace en Dokploy.
+- [x] Publicar y validar el mismo enlace en Dokploy.
+
+### Review
+
+- `npm run check`: OK.
+- Versión pública funcional: commit `6eb4850`, deploy Dokploy `6tKZmdfPpgJtTpj0wj-JC` en estado `done`.
+- Producción: `https://propuesta-bracarli.solversai.cloud/?v=6eb4850` responde HTTP 200.
+- Escritorio 1440 × 900: hero completo con botones visibles, imágenes cargadas y sin overflow horizontal.
+- Móvil 390 × 844: contenido completo visible, imágenes cargadas, CTA fijo, precios correctos y sin overflow horizontal.
