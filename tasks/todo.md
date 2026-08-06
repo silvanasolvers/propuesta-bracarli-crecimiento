@@ -57,4 +57,12 @@
 - [x] Explicar la adaptación de los skills a mercados de alta, media y baja facturación.
 - [x] Aclarar que se cobra la operación mensual y no el desarrollo del agente.
 - [x] Actualizar tarifa habitual a `$6.500.000 COP` y tarifa preferencial por referido de Mauricio Henao a `$5.000.000 COP`.
-- [ ] Verificar localmente, desplegar en Dokploy y validar producción.
+- [x] Verificar localmente, desplegar en Dokploy y validar producción.
+
+### Review
+
+- `npm run check`: OK.
+- Producción: HTTP 200 en `https://propuesta-bracarli.solversai.cloud`.
+- Dokploy: `done` con versión visual `7a8fe38`.
+- Validación móvil: 390 px, sin overflow horizontal; seis skills, ciclo operativo compacto y ambas tarifas visibles.
+- Contenido anterior removido: ya no aparece `Nosotros damos el mapa` ni `Hoy se está fugando intención`.
