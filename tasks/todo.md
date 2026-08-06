@@ -66,3 +66,14 @@
 - Dokploy: `done` con versión visual `7a8fe38`.
 - Validación móvil: 390 px, sin overflow horizontal; seis skills, ciclo operativo compacto y ambas tarifas visibles.
 - Contenido anterior removido: ya no aparece `Nosotros damos el mapa` ni `Hoy se está fugando intención`.
+
+## Revision 8 — Plan comercial de 90 días
+
+- [x] Replantear la propuesta para vender el resultado comercial de Bracarli y no la herramienta de SolversAI.
+- [x] Usar fortalezas verificadas de Bracarli: más de 30 años, más de 5.000 clientes, oro 18K certificado y garantía.
+- [x] Mostrar visualmente la cadena `Descubrir → Conversar → Volver`.
+- [x] Incluir un ejemplo representativo de campaña, ruta de WhatsApp y reporte de decisiones.
+- [x] Simplificar el plan a tres etapas y separar responsabilidades de SolversAI y Bracarli.
+- [x] Mantener tarifa habitual de `$6.500.000 COP/mes` y tarifa preferencial de `$5.000.000 COP/mes`.
+- [x] Verificar contenido, servidor y responsive local.
+- [ ] Publicar y validar el mismo enlace en Dokploy.
