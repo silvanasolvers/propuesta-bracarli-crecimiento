@@ -40,3 +40,10 @@
 - [x] Agregar inversion de gestion mensual por `$5.000.000 COP`.
 - [x] Agregar formas de pago: unico pago dentro del mes correspondiente o 2 pagos quincenales de `$2.500.000 COP`.
 - Verificacion: `npm run check` OK, Dokploy `done` con commit `d28456a`, URL publica HTTP 200 y HTML publico contiene los valores de inversion y pagos.
+
+## Revision 6
+
+- [x] Quitar la pieza visual pesada del hero.
+- [x] Agregar fondo dinamico de marca con joyeria integrada como ambiente, sin tarjeta recortada.
+- [x] Hacer que la informacion entre hacia arriba con scroll en navegadores compatibles.
+- [x] Redisenar el bloque de inversion para que no se vea como cajon pesado.

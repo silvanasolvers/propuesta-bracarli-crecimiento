@@ -6,7 +6,7 @@ const required = [
   'Bracarli',
   'Hoy se está fugando intención',
   'Sistema Mensual de Crecimiento Comercial Digital',
-  'oro 18K',
+  'Oro 18K',
   'garantía',
   'certificado',
   'Instagram',
