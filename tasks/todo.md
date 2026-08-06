@@ -48,3 +48,13 @@
 - [x] Hacer que la informacion entre hacia arriba con scroll en navegadores compatibles.
 - [x] Redisenar el bloque de inversion para que no se vea como cajon pesado.
 - Verificacion: `npm run check` OK, Dokploy `done` con commit `33d4c3c`, URL publica HTTP 200, HTML publico contiene fondo dinamico/scroll y `$5.000.000 COP`.
+
+## Revision 7 — Marketing agéntico
+
+- [x] Reposicionar la propuesta alrededor de un agente de marketing operado por SolversAI.
+- [x] Presentar seis skills: inteligencia de mercado, contenido, pauta, WhatsApp, recompra y data.
+- [x] Mostrar el ciclo continuo de detección, producción, lanzamiento, medición y optimización.
+- [x] Explicar la adaptación de los skills a mercados de alta, media y baja facturación.
+- [x] Aclarar que se cobra la operación mensual y no el desarrollo del agente.
+- [x] Actualizar tarifa habitual a `$6.500.000 COP` y tarifa preferencial por referido de Mauricio Henao a `$5.000.000 COP`.
+- [ ] Verificar localmente, desplegar en Dokploy y validar producción.
