@@ -337,8 +337,7 @@
     .footer { padding: 26px 0 94px; color: rgba(255,253,248,.55); background: #071d1c; font-size: 11px; }
     .footer-inner { display: flex; justify-content: space-between; gap: 20px; }
     .mobile-cta { display: none; }
-    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .72s ease, transform .72s ease; }
-    .reveal.visible { opacity: 1; transform: none; }
+    .reveal { opacity: 1; transform: none; }
 
     @media (max-width: 1020px) {
       .hero { min-height: auto; grid-template-columns: 1fr 420px; }
@@ -421,8 +420,7 @@
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      .button, .button .arrow, .reveal { transition: none; }
-      .reveal { opacity: 1; transform: none; }
+      .button, .button .arrow { transition: none; }
     }
   </style>
 </head>
@@ -597,21 +595,5 @@
   <footer class="footer"><div class="shell footer-inner"><span>Propuesta preparada para Bracarli.</span><span>SolversAI · Marketing operado con tecnología propia.</span></div></footer>
   <a class="mobile-cta" href="#inversion" aria-label="Ver inversión del plan de Bracarli"><span>Plan 90 días · Ver inversión</span><b>→</b></a>
 
-  <script>
-    const revealItems = document.querySelectorAll('.reveal');
-    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.08, rootMargin: '0px 0px -40px' });
-      revealItems.forEach((item) => observer.observe(item));
-    } else {
-      revealItems.forEach((item) => item.classList.add('visible'));
-    }
-  </script>
 </body>
 </html>
