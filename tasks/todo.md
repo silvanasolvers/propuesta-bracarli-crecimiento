@@ -39,3 +39,4 @@
 
 - [x] Agregar inversion de gestion mensual por `$5.000.000 COP`.
 - [x] Agregar formas de pago: unico pago dentro del mes correspondiente o 2 pagos quincenales de `$2.500.000 COP`.
+- Verificacion: `npm run check` OK, Dokploy `done` con commit `d28456a`, URL publica HTTP 200 y HTML publico contiene los valores de inversion y pagos.
