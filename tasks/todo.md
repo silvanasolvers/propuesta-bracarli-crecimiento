@@ -47,3 +47,4 @@
 - [x] Agregar fondo dinamico de marca con joyeria integrada como ambiente, sin tarjeta recortada.
 - [x] Hacer que la informacion entre hacia arriba con scroll en navegadores compatibles.
 - [x] Redisenar el bloque de inversion para que no se vea como cajon pesado.
+- Verificacion: `npm run check` OK, Dokploy `done` con commit `33d4c3c`, URL publica HTTP 200, HTML publico contiene fondo dinamico/scroll y `$5.000.000 COP`.
