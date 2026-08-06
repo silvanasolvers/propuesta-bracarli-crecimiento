@@ -656,15 +656,35 @@
       h1 { font-size: clamp(43px, 15vw, 60px); }
       .hero-lead { font-size: 17px; }
       .hero-actions .button { flex: 1 1 100%; }
-      .impact-strip,
       .pain-grid,
-      .deliver-grid,
       .pain-grid.three,
-      .skill-grid,
       .bullets,
       .payment-options {
         grid-template-columns: 1fr;
       }
+      .impact-strip,
+      .deliver-grid,
+      .skill-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .impact { min-height: 88px; padding: 11px; }
+      .impact span { font-size: 13px; }
+      .skill,
+      .deliver { min-height: 126px; padding: 13px; }
+      .skill h3,
+      .deliver h3 { font-size: 15px; }
+      .skill p,
+      .deliver p { font-size: 12px; }
+      .agent-loop {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .agent-loop li {
+        flex: 1 1 30%;
+        min-height: 44px;
+        padding: 10px 8px;
+        font-size: 10px;
+      }
+      .agent-loop li:not(:last-child)::after { display: none; }
       .impact { min-height: 74px; }
       .section-head {
         display: grid;
