@@ -22,6 +22,9 @@ const required = [
   'Ruta WhatsApp',
   'Medición',
   'Una joya no se vende empujando',
+  'Gestión mensual',
+  '$5.000.000 COP',
+  '2 pagos quincenales de $2.500.000 COP',
   'BRACARLI',
 ];
 

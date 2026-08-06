@@ -34,3 +34,8 @@
 - [x] Reforzar que SolversAI define estrategia, pauta y skills para que el equipo ejecute con mapa.
 - [x] Ajustar responsive con grillas compactas y layout mobile de una columna.
 - Verificacion: `npm run check` OK, servidor local HTTP 200, capturas Chromium desktop/mobile revisadas y produccion actualizada por autodeploy.
+
+## Revision 5
+
+- [x] Agregar inversion de gestion mensual por `$5.000.000 COP`.
+- [x] Agregar formas de pago: unico pago dentro del mes correspondiente o 2 pagos quincenales de `$2.500.000 COP`.
